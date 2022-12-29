@@ -1,0 +1,58 @@
+/* .container-custom{
+    width: 75% !important;
+} */
+
+/* Added by Akash */
+/* .affix {
+    background: black !important;
+    padding: 0px 0px;
+    margin-top: -0px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+} */
+*{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.alt-nav {
+    background-color: #000;
+}
+
+
+.active__color{
+    background-color: #9CA1AC;
+    color: #242634;
+    font-weight: 700;
+}
+
+
+.swiper-pagination-bullet-active{
+    background: #231F20;
+    width: 14px;
+    height: 10px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .dashboard .dashboard__side-bar{
+        display: none;
+    }
+    .dashboard .dashboard__details{
+        width: 100%;
+    }
+}
+
+select {
+    -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMdQaAAAAJ3RSTlMAAAECAwQGBwsOFBwkJTg5RUZ4eYCHkJefpaytrsXGy8zW3+Do8vNn0bsyAAAAYElEQVR42tXROwJDQAAA0Ymw1p9kiT+L5P5HVEi3qJn2lcPjtIuzUIJ/rhIGy762N3XaThqMN1ZPALsZPEzG1x8LrFL77DHBnEMxBewz0fJ6LyFHTPL7xhwzWYrJ9z22AqmQBV757MHfAAAAAElFTkSuQmCC);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  padding-right: 6px;
+}
+
+
+.active{
+    background-color: red;
+}
